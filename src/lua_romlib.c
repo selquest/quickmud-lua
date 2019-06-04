@@ -794,7 +794,6 @@ static int global_sec_check (lua_State *LS)
 /* would be nice to do this in lua but we run it before startup */
 void register_globals( lua_State *LS )
 {
-    //if (1) return;
     int top=lua_gettop(LS); 
     int i;
 
